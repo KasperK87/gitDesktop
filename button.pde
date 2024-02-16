@@ -13,8 +13,8 @@ class Button{
     circle(location.x, location.y, size);
   }
   
-  boolean isClicked(PVector mouse){
-    if (dist(mouse.x, mouse.y, location.x, location.y) < size){
+  boolean isClicked(){
+    if (dist(mouseX, mouseY, location.x, location.y) < size){
       return true;
     }
     return false;
