@@ -23,6 +23,6 @@ void mousePressed(){
     selectedColor = greenButton.clicked();
   }
   if (blueButton.isClicked()){
-    selectedColor = greenButton.clicked();
+    selectedColor = blueButton.clicked();
   }
 }
